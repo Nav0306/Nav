@@ -1,0 +1,141 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: url("https://i.pinimg.com/736x/68/42/cc/6842ccbd52ae03302a7055f0b922ed67.jpg") no-repeat fixed;
+  background-size: 100%;
+  transition: background-color 2s;
+  background-color: #000;
+}
+
+
+.light-up {
+    background-color: #fff;
+  }
+
+.header,
+.footer {
+  padding: 30px 0;
+  color: #444;
+}
+
+.header ul,
+.footer ul {
+  padding: 0 20px;
+  margin: 0;
+  list-style: none;
+}
+/* Header */
+
+.header h1 {
+  color: #fff;
+  margin: 0 0 30px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.header li {
+  display: inline;
+  width: 100px;
+  text-align: center;
+  margin: 6px;
+}
+
+.header li.active a {
+  background-color: #f01251;
+}
+
+.header li a {
+  color: #f01251;
+}
+/* Main */
+
+.main {
+  margin-bottom: 30px;
+}
+
+.thumbnail {
+  padding: 0;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  border: 0px;
+}
+
+.thumbnail img {
+  width: 100%;
+  display: block;
+}
+/* Footer */
+
+.footer li {
+  display: inline;
+  margin-right: 40px;
+}
+
+.footer p {
+  margin: 0 30px 0 0;
+}
+/* Bootstrap grid system adjustments */
+.container {
+  padding: 20px; /* Add padding for spacing */
+}
+
+.thumbnail {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for floating effect */
+  transition: transform 0.3s ease; /* Smooth transition for floating effect */
+}
+
+.thumbnail:hover {
+  transform: translateY(-5px); /* Move up on hover */
+}
+
+.thumbnail img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.thumbnail figure {
+  margin: 0;
+  padding: 10px;
+  background-color: #fff; /* White background for captions */
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+  opacity: 0.8; /* Semi-transparent */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.thumbnail:hover figure {
+  opacity: 1; /* Fully visible on hover */
+}
+/* Bootstrap grid system adjustments */
+.container {
+  padding: 20px; /* Add padding for spacing */
+}
+
+.header h1 {
+  font-family: 'Indie Flower', cursive; /* Bubbly font family */
+  font-size: 48px; /* Adjust font size as needed */
+  text-align: center; /* Center align the text */
+  margin-bottom: 20px; /* Add space below the heading */
+  position: relative; /* Relative positioning for floating effect */
+  display: inline-block; /* Inline block display to adjust width */
+  padding: 10px 20px; /* Padding for spacing inside the heading */
+  /* White background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for floating effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.header h1:hover {
+  transform: translateY(-5px); /* Move up on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); /* Adjusted shadow on hover */
+}
